@@ -131,75 +131,8 @@ class UserInputData extends JPanel {
     }
 }
 
-/* handles the actual input form */
-//
-//    public void createLables(Class c) {
-//        for (Method method : c.getMethods()) {
-//
-//            System.out.println(method.getName() + "1");
-//            if (method.getParameterTypes().length == 1) {
-//                System.out.println(method.getName() + "2");
-//                if (method.getParameterTypes()[0].isPrimitive()) {
-//                    /* convert to Wrapper
-//                    System.out.println(method.getName() + "3");
-//                    PrimitivSetter s = new PrimitivSetter(method);
-//                    this.add(s);
-//                    setters.add(s);
-//                    setters.size();
-//                     */                }
-//                if (Trait.class.isAssignableFrom(method.getParameterTypes()[0])) {
-//                    System.out.println(method.getName() + "3b");
-//                    TraitSetter s = new TraitSetter(method);
-//
-//
-//
-//
-//                    this.add(s);
-//
-//
-//                    setters.add(s);
-//                    //setters.size();
-//                    //PrimitiveType prim = new Integer(12);
-//                    }
-//                if (String.class.isAssignableFrom(method.getParameterTypes()[0])) {
-//                    System.out.println(method.getName() + "3b");
-//                    TraitSetter s = new TraitSetter(method);
-//
-//
-//
-//
-//                    this.add(s);
-//
-//
-//                    setters.add(s);
-//                    //setters.size();
-//                    //PrimitiveType prim = new Integer(12);
-//                    }
-//            }
-//
-//*/
-//        }
-//    }
-class PrimitivSetter<T> extends JPanel {
 
-    Class handled = null;
-    Method method = null;
-    JLabel lable;
-    JTextField input = new JTextField();
 
-    public PrimitivSetter(Method m) {
-        handled = method.getParameterTypes()[0].getClass();
-        method = m;
-        lable = new JLabel(method.getName().replaceFirst("set", ""));
-        setLayout(new FlowLayout());
-        input.setColumns(4);
-        add(lable);
-        add(input);
-    }
-
-    public void set(T value) {
-    }
-}
 
 
 
