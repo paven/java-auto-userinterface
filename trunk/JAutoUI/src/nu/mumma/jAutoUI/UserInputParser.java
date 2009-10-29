@@ -4,27 +4,17 @@
  */
 package nu.mumma.jAutoUI;
 
-import jautoui.*;
-import java.awt.FlowLayout;
-import java.awt.Frame;
+
 import java.awt.GridLayout;
-import java.awt.Label;
-import java.awt.Panel;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.reflect.InvocationTargetException;
+
 import java.lang.reflect.Method;
-import java.lang.reflect.Type;
-import java.text.Annotation;
+
 import java.util.LinkedList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.lang.model.type.PrimitiveType;
-import javax.swing.JFrame;
+
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
-import javax.swing.JTextField;
+
 
 
 
